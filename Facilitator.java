@@ -129,10 +129,7 @@ class FacilitatorInfo{
        
     }
 
-    public void displayDonors(){
-        
     public void displayDonors() {
-    
 
         System.out.println("");
         System.out.println("\n===============================================================================");
@@ -147,7 +144,6 @@ class FacilitatorInfo{
     }
 }
 
-
 public class Facilitator{
 
     public static void main(String[] args) {
@@ -158,10 +154,7 @@ public class Facilitator{
         
         facilitator.displayDisasterDetails();
         facilitator.displayInventories(1000,1000, 1000, 1000, new String[] {"Free Public Transport"});
-        
-        
-        facilitator.displayDonors();
+
     }
 
-    
 }
