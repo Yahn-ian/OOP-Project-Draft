@@ -170,8 +170,8 @@ class FacilitatorInfo{
                      }   
        }
        scanner.close();
+       }
        
-    }
 
     public void displayVolunteers(){
        
