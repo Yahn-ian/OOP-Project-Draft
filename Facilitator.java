@@ -121,6 +121,26 @@ class FacilitatorInfo{
     }
 
     public void processTransactions(){
+       while (true) {
+        System.out.println("Enter the Supply you would like to withdraw: ");
+        int supplyType = scanner.nextInt();
+
+        System.out.println("Enter the quantity needed for the supply: ");
+        int supplyQuantity = scanner.nextInt();
+
+        switch (supplyType){
+            case 1: //foods
+                if (supplyQuantity <= food){
+                    foods -= supplyQuantity 
+                    System.out.println("You have withdrawn" + supplyQuantity + "remaining supplies: " + food);
+                }else{
+                        System.out.println("Insufficient Supplies");
+                    }
+        }
+
+       }
+
+
         //kayo na bahala here hehehe
         
     }
