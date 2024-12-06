@@ -136,7 +136,7 @@ class FacilitatorInfo{
                 }else{
                         System.out.println("Insufficient Supplies");
                     }
-        }
+             }
             case 2: //water
                 if (supplyQuantity <= water){
                     foods -= supplyQuantity 
