@@ -179,12 +179,22 @@ class FacilitatorInfo{
 
     public void displayDonors(){
         
+    public void displayDonors() {
+    
+
+        System.out.println("");
+        System.out.println("\n===============================================================================");
+        System.out.println("                      . . .  LIST OF DONORS  . . .                ");
+        System.out.println("===============================================================================");
+
+
     }
 
     public void displayFaciSummary(){
 
     }
 }
+
 
 public class Facilitator{
 
@@ -198,6 +208,7 @@ public class Facilitator{
         facilitator.displayInventories(1000,1000, 1000, 1000, new String[] {"Free Public Transport"});
         
         
+        facilitator.displayDonors();
     }
 
     
